@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: Bree Serif;
+}
+
+.competing-team-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid #475569;
+}
+
+.competing-team {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.competing-team-mobile-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.competing-team-desktop-logo {
+  display: none;
+}
+
+.venue {
+  font-size: 12px;
+}
+
+.result {
+  font-size: 12px;
+}
+
+.ongoing-match-details {
+  padding: 10px;
+}
+
+.innings-heading {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.innings-team {
+  font-size: 12px;
+}
+
+.man-of-the-match {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.player-name {
+  font-size: 12px;
+}
+
+.umpires-heading {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.umpire-name {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .competing-team-details {
+    border-bottom: 0px;
+  }
+
+  .competing-team-mobile-logo {
+    display: none;
+  }
+
+  .competing-team-desktop-logo {
+    width: 180px;
+    height: 150px;
+    display: block;
+  }
+
+  .ongoing-match-details {
+    text-align: right;
+  }
+}
